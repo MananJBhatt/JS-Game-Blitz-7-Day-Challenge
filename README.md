@@ -16,4 +16,4 @@ The first game I’ve developed is the classic **Rock Paper Scissors**. This gam
 - **Score Tracking**: The game tracks wins, losses, and draws using local storage.
 - **Sounds and Animations**: The game includes sound effects and animations to enhance the user experience.
 
-### Live Link : (https://js-blitz-rock-paper-scissors.netlify.app/) [Rock Paper Scissors]
+### Live Link : [Rock Paper Scissors](https://js-blitz-rock-paper-scissors.netlify.app/)
