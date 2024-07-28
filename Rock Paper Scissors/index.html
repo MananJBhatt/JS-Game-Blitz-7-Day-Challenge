@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        <h2>Computer Choice: <span id="computer-choice"></span></h2>
+        <h2>Your Choice: <span id="your-choice"></span></h2>
+        <div class="result animate" id="result">Result</div>
+
+        <div class="choices">
+            <img src="https://img.icons8.com/color/96/000000/rock.png" id="rock" alt="Rock">
+            <img src="https://img.icons8.com/color/96/000000/paper.png" id="paper" alt="Paper">
+            <img src="https://img.icons8.com/color/96/000000/scissors.png" id="scissors" alt="Scissors">
+        </div>
+
+        <div class="score-board">
+            <h3>Wins: <span id="wins">0</span></h3>
+            <h3>Losses: <span id="losses">0</span></h3>
+            <h3>Draws: <span id="draws">0</span></h3>
+        </div>
+    </div>
+
+    <audio id="background-music" src="https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-game-over-213.wav"
+        loop></audio>
+    <audio id="win-sound" src="https://assets.mixkit.co/sfx/download/mixkit-game-level-completed-2059.wav"></audio>
+    <audio id="lose-sound" src="https://assets.mixkit.co/sfx/download/mixkit-losing-bleeps-2026.wav"></audio>
+    <audio id="draw-sound" src="https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-jump-223.wav"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
