@@ -17,3 +17,16 @@ The first game I’ve developed is the classic **Rock Paper Scissors**. This gam
 - **Sounds and Animations**: The game includes sound effects and animations to enhance the user experience.
 
 ### Live Link : [Rock Paper Scissors](https://js-blitz-rock-paper-scissors.netlify.app/)
+
+## Day 2: Memory Game
+
+Today, I developed a Memory Game, also known as Concentration, where the goal is to find matching pairs of cards. This game builds on my JavaScript skills, focusing on array manipulation, event handling, and DOM updates.
+
+### Features
+- **Player vs. Game:** The game is played against the computer where the player needs to match pairs of cards.
+- **Score Tracking:** Tracks the number of matched pairs and displays a win message when all pairs are found.
+- **Responsive Design:** Ensures the game grid and elements are responsive across different devices.
+- **Card Flip Animation:** Includes flip animations for a smooth and engaging user experience.
+
+- ### Live Link : [Play the Memory Game](https://js-blitz-memory-game.netlify.app/)
+
