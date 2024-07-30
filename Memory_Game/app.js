@@ -22,7 +22,6 @@ cardArray.sort(() => 0.5 - Math.random());
 const gridDisp = document.querySelector("#grid");
 const resultDisplay = document.querySelector("#result");
 const notificationDisplay = document.querySelector("#notification");
-const backgroundMusic = document.getElementById("background-music");
 
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
