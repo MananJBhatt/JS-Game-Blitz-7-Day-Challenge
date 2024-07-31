@@ -122,6 +122,7 @@ function moveBall() {
     collisonCheck();
 }
 
+
 timerId = setInterval(moveBall, 30) // change time interval for more difficulty
 
 //boundary check
