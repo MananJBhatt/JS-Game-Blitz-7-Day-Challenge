@@ -1,28 +1,99 @@
-.grid{
-    position: absolute;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    height: 100vh;
+    justify-content: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score-container {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    position: relative;
     width: 560px;
     height: 300px;
     border: solid black 1px;
+    background: #222;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
-.block{
+
+.block {
     position: absolute;
     width: 100px;
     height: 20px;
     background-color: blue;
+    border: 2px solid #fff;
+    transition: background-color 0.3s ease;
 }
 
-.user{
+.block:hover {
+    background-color: lightblue;
+}
+
+.user {
     position: absolute;
     width: 100px;
     height: 20px;
     background-color: rgb(204, 0, 255);
 }
 
-
-.ball{
+.ball {
     position: absolute;
     width: 20px;
     height: 20px;
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: red;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }

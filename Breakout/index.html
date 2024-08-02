@@ -7,10 +7,18 @@
     <title>Breakout</title>
 </head>
 <body>
-    <div id="score">0</div>
-    <div class="grid">
+    <header>
+        <h1>Breakout Game</h1>
+    </header>
+    <div class="game-container">
+        <div id="score-container">
+            <span>Score: </span><span id="score">0</span>
+        </div>
+        <div class="grid"></div>
+        <button id="start-button">Start Game</button>
+        <button id="end-button" disabled>End Game</button>
     </div>
-    
+    <audio id="hit-sound" src="mixkit-game-ball-tap-2073.wav"></audio>
     <script src="app.js"></script>
 </body>
 </html>
