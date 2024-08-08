@@ -6,7 +6,7 @@ Welcome to my **JS Game Blitz: 7-Day Challenge**! This repository is a collectio
 
 In this challenge, I’m building and playing through seven different JavaScript games, each designed to focus on different aspects of the language. This challenge serves as both a learning exercise and a way to showcase my JavaScript skills.
 
-## Explore All Games
+## Explore All Games 
 
 You can explore all the games from this challenge on one site:
 
