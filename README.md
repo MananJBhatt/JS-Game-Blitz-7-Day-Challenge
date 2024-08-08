@@ -10,7 +10,7 @@ In this challenge, I’m building and playing through seven different JavaScript
 
 You can explore all the games from this challenge on one site:
 
-### [JS Game Blitz - All Games]((https://js-game-blitz-7-day-challenge.vercel.app/))
+### [JS Game Blitz - All Games](https://js-game-blitz-7-day-challenge.vercel.app/)
 
 ## Day 1: Rock Paper Scissors
 
