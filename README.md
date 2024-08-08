@@ -94,5 +94,5 @@ On the final day, I developed **Space Invaders**, a game that emphasizes shootin
 - **Score Tracking:** The game tracks the score based on the number of aliens defeated.
 - **Game Over Conditions:** The game ends when aliens reach the shooter's level.
 
-### Live Link: [Play Space Invaders](https://js-blitz-space-invaders.netlify.app/)
+### Live Link: [Play Space Invaders](https://js-blitz-space-invader.netlify.app/)
 
