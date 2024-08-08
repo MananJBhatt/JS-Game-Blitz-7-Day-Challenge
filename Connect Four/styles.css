@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    /* 7 columns */
+    grid-template-rows: repeat(6, 60px);
+    /* 6 rows */
+    gap: 5px;
+    background-color: #333;
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.grid div.taken {
+    background-color: #d3d3d3;
+}
+
+.player-one {
+    background-color: #e74c3c;
+    /* Red */
+}
+
+.player-two {
+    background-color: #3498db;
+    /* Blue */
+}
+
+#result {
+    margin: 10px 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e74c3c;
+    /* Default to red for Player One wins */
+}

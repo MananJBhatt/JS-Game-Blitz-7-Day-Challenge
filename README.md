@@ -28,5 +28,5 @@ Today, I developed a Memory Game, also known as Concentration, where the goal is
 - **Responsive Design:** Ensures the game grid and elements are responsive across different devices.
 - **Card Flip Animation:** Includes flip animations for a smooth and engaging user experience.
 
-- ### Live Link : [Play the Memory Game](https://js-blitz-memory-game.netlify.app/)
+- ### Live Link : [Play the Memory Game](https://js-blitz-memory-game.netlify.app/);
 
