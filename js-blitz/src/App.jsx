@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import GameList from './Components/GameList';
 import './index.css';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import backgroundSound from './assets/backgroundSound.mp3'; // Import the local sound file
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
           <a href="https://github.com/mananjbhatt" className="underline hover:text-highlight" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/mananjbhatt" className="underline hover:text-highlight" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
       </footer>
+      <SpeedInsights/>
     </div>
   );
 };
